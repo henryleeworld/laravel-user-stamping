@@ -1,4 +1,4 @@
-# Laravel 8 使用者戳印
+# Laravel 9 使用者戳印
 
 引入 wildside 的 userstamps 套件來擴增使用者戳印，提供了一個 Eloquent 模型的特性來自動使用應用程式登入的使用者填入 `created_by` 和 `updated_by` 欄位，當使用 Laravel 的 `SoftDeletes` 軟刪除特性同時，當刪除時也會填入 `deleted_by` 欄位。
 
@@ -20,9 +20,13 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate
 ```
-- 執行安裝 Laravel Mix 引用的依賴項目，並執行所有 Mix 任務。
+- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
 ```sh
-$ npm install && npm run dev
+$ npm install
+```
+- 執行正式環境版本化資源管道並編譯。
+```sh
+$ npm run build
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/register` 來進行註冊。
