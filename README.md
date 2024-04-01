@@ -35,8 +35,8 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/o85n6Yv.png)
+![](https://i.imgur.com/BDalNU6.png)
 > 登入後執行更新，例如輕觸帳戶下方的「個人資料」內的「更新密碼」來進行密碼變更
 
-![](https://i.imgur.com/5IQ7Dk2.png)
+![](https://i.imgur.com/E4O1O8D.png)
 > 儲存更新以觸發填入使用者戳印
