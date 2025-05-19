@@ -1,4 +1,4 @@
-# Laravel 10 使用者戳印
+# Laravel 12 使用者戳印
 
 引入 wildside 的 userstamps 套件來擴增使用者戳印，提供了一個 Eloquent 模型的特性來自動使用應用程式登入的使用者填入 `created_by` 和 `updated_by` 欄位，當使用 Laravel 的 `SoftDeletes` 軟刪除特性同時，當刪除時也會填入 `deleted_by` 欄位。
 
@@ -35,8 +35,8 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/BDalNU6.png)
-> 登入後執行更新，例如輕觸帳戶下方的「個人資料」內的「更新密碼」來進行密碼變更
+![](https://i.imgur.com/eNCMBRt.png)
+> 登入後執行更新，例如輕觸帳號下方的「個人資料」內的「更新密碼」來進行密碼變更
 
-![](https://i.imgur.com/E4O1O8D.png)
+![](https://i.imgur.com/TdSoTOx.png)
 > 儲存更新以觸發填入使用者戳印
